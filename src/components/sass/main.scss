@@ -13,10 +13,11 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   line-height: 2;
   margin: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+  font-family: "Open Sans", sans-serif;
 }
 /** Globales **/
 .container {
@@ -49,7 +50,7 @@ img {
   padding: 0.7rem 2rem;
   text-align: left;
   font-size: 3rem;
-  font-weight: lighter;
+  font-weight: 300;
   max-width: 40rem;
   align-self: center;
   border-radius: 0.4rem;
@@ -72,13 +73,13 @@ img {
 .about-me {
   padding: 2rem 0;
   color: $black;
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 2.8rem;
 }
 
 .p-info {
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight: 300;
   color: $gray;
 }
 
