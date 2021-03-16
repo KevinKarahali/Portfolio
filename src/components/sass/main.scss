@@ -53,6 +53,7 @@ img {
   max-width: 40rem;
   align-self: center;
   border-radius: 0.4rem;
+  //margin-top: 4rem;
   margin-bottom: 4rem;
   a {
     color: $blue;
@@ -93,4 +94,16 @@ img {
 
 .icon_github_static {
   width: 17rem;
+}
+@media (min-width: 768px) {
+  .hero__h2 {
+    margin-top: 4rem;
+  }
+
+  .hero__img {
+    margin-top: 4rem;
+  }
+  .hero-img {
+    width: 25rem;
+  }
 }
