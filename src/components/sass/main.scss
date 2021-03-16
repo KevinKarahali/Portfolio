@@ -1,0 +1,95 @@
+//@import "./reset.scss";
+@import "./colors.scss";
+
+html {
+  font-size: 62.5%; /** 1rem = 10px **/
+  line-height: 1.15;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 0;
+}
+/** Globales **/
+.container {
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+.no-margin {
+  margin: 0;
+}
+
+.hero {
+  background-color: $black;
+  //min-height: 54rem;
+  min-height: 50vh;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.hero__h2 {
+  background: white none repeat scroll 0% 0%;
+  color: $gray;
+  padding: 0.7rem 2rem;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: lighter;
+  max-width: 40rem;
+  align-self: center;
+  border-radius: 0.4rem;
+  a {
+    color: $blue;
+  }
+}
+
+.hero__img {
+  align-self: center;
+  padding: 4rem 0;
+}
+
+.hero-img {
+  width: 20rem;
+}
+
+.about-me {
+  padding: 2rem 0;
+  color: $black;
+  font-weight: lighter;
+  font-size: 2.8rem;
+}
+
+.p-info {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: $gray;
+}
+
+.git {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.icon_github {
+  align-self: center;
+}
+
+.icon_github_static {
+  width: 17rem;
+}
