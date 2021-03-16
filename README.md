@@ -1,12 +1,12 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://kevinkarahali.com/">
-    <img alt="Kevin Karahali" src="https://kevinkarahali.com/static/29f837c6a933b4f701d892e0e75cf259/0a0af/perfil2.webp" width="60" />
-  </a>
-</p>
+  <a href="https://kevinkarahali.com/" target="_blank">
 <h1 align="center">
 Online Project
 </h1>
+    <img alt="Kevin Karahali" src="https://kevinkarahali.com/static/29f837c6a933b4f701d892e0e75cf259/0a0af/perfil2.webp" width="80" />
+  </a>
+</p>
 
 
 ## 🚀 Quick start
